@@ -15,7 +15,7 @@ body {
   background: #ffffff;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   color: #222222;
 }
 
@@ -23,7 +23,6 @@ a, a:visited {
   color: #222222;
   font-weight: bold; 
   text-decoration: none;
-  cursor: pointer !important;
 }
 
 a:hover {
@@ -38,15 +37,36 @@ a:hover {
   font-weight: bold;
 }
 
+.product-photo {
+  border: 10px solid #ffffff;
+  display: block;
+  text-align: center;
+  float: left;
+  margin-right: 50px;
+}
+
+.product-info{
+  text-align: center;
+  padding: 10px;
+  border: 10px solid #ffffff;
+  display: block;
+  float: left;
+}
+
+.link {
+  color: #e54e5f;
+  font-size: 14px;
+}
+
+
 
 /* Header */
 header{
   width: 100%;
   height: 300px;
   background: #f0f0f0;
-  border-bottom: 2px solid #e03d4e;
-  position: fixed;
-  top: 0;
+  border-bottom: 4px solid #e03d4e;
+  margin-bottom: 40px;
 }
 
 #inner-wrapper{
@@ -55,14 +75,8 @@ header{
 }
 
 #logo{
-  width: 50%;
-  padding: 25px;
-  float: left;
-
-}
-
-#nav{
-  
+  padding-top: 40px;
+  text-align: center;
 }
 
 #nav ul{
@@ -70,10 +84,10 @@ header{
 }
 
 #nav ul li{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 100px;
-  font-weight: normal;
-  padding-left: 17px;
+  font-weight: bold;
+  padding: 35px;
   display: inline-block;
 }
 
@@ -82,36 +96,43 @@ header{
   font-weight: bold;
 }
 
-#content{
-  width: 940px;
-  background: #ffffff;
-  margin: 0 auto;
-  padding: 20px;
-  margin-top: 100px;
-}
-
-#content p{
-  margin-bottom: 15px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
 h1 {
-  width: 50px;
-  background: #14BDD1;
-  color: #ffffff;
+  color: #222222;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 33px;
   line-height: 50px;
   border-radius: 50px;
   margin-right: 15px;
-  display: inline-block;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 50px;
   color: #222222;
-  display: inline-block;
 }
+
+
+
+/* Footer */
+footer{
+  width: 100%;
+  height: 200px;
+  background: #222222;
+  border-top: 4px solid #e03d4e;
+  position:absolute;
+    width:100%;
+    bottom:0px;
+}
+
+#inner-wrapper{
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
