@@ -164,8 +164,26 @@ h2 {
   color: #aaaaaa;
 }
 
+.project-empty{
+  width: 220px;
+  height: 220px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 220px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
 .last{
   margin: 0;
+}
+
+.project-last-empty{
+  margin: 0;
+  background: #fff
 }
 
 .clearfix {

@@ -1,14 +1,8 @@
 $(document).ready(function() {
 
-	$('.project').magnificPopup({
-		type: 'image'
+	$('.ajax-popup-link').magnificPopup({
+		type: 'ajax',
+		alignTop: true,
+		overflowY: 'scroll'
 	});
-
-	$('.gallery').magnificPopup({
-		type: 'image',
-		gallery: {
-			enabled:true
-		}
-	});
-
 });
