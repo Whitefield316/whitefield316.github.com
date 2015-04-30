@@ -134,7 +134,13 @@ h2 {
   width: 940px;
   margin: 40px auto 0;
   padding: 50px;
+  background: #ffffff;
+  position: relative;
 
+}
+
+#content img{
+  width: 100%;
 }
 
 .project{
